@@ -247,7 +247,7 @@ a{
     .header{
         display: inline-block;
         margin:0 auto;
-        width: auto ;
+        max-width: 100% ;
     }
     .nav {
         display: flex;
@@ -392,13 +392,14 @@ img{
 .request-section{
     display: flex;
     flex-direction: column;
+} 
+    .request-div {
+        height: 20rem;
+        width: 15rem;
+        margin: 2rem auto;
+        text-align: center;
+        transform: skewY(-5deg) skewX(3deg);
+        background-image: radial-gradient(rgba(128,128,128,.3), rgba(128,128,128,.7));
     
 }
-}
-@media screen and (max-width:480px) {
-    .nav-toggle {
-        padding-right: 2rem;
-        
-       
-    }
 }
