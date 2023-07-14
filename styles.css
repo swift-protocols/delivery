@@ -266,6 +266,7 @@ a{
     .nav-toggle {
         display: inline-block;
         font-size: 1.8rem;
+        padding: auto 1rem;
         background: transparent;
         border-color: transparent;
         cursor: pointer;
@@ -402,4 +403,9 @@ img{
         background-image: radial-gradient(rgba(128,128,128,.3), rgba(128,128,128,.7));
     
 }
+}
+@media screen and (max-width: 400px) {
+    .nav-toggle {
+        padding: auto 4rem;
+    }
 }
