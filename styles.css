@@ -397,13 +397,8 @@ img{
 }
 @media screen and (max-width:480px) {
     .nav-toggle {
-        display: inline-block;
-        font-size: 1.6rem;
-        background: transparent;
-        border-color: transparent;
-        cursor: pointer;
-        margin: auto 0;
-        margin: 1rem;
+        padding-right: 2rem;
+        
        
     }
 }
