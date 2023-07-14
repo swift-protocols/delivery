@@ -218,7 +218,7 @@ label{
 @media screen and (max-width: 800px) {
  
     .header{
-        display: block;
+        display: inline-block;
         margin: auto;
         width: auto ;
     }
@@ -228,7 +228,8 @@ label{
         justify-items: space-between;
     }
     .header-div-text {
-        font-size: 1rem ;     
+        font-size: 1.6rem ; 
+        text-align: center;    
     }
     .header-div-parag{
         font-size: .85rem;
@@ -289,9 +290,10 @@ label{
 
 .desc-small {
     text-align: center;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     word-spacing: 1.1;
-    line-height: 1.4;
+    line-height: 1.25;
+    color: gray;
 
 }
 .contact-article{
